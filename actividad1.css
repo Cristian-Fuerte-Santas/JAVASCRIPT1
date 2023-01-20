@@ -1,0 +1,164 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    padding: 20px;
+    max-width: 1500px;
+}
+
+.tituloConfiguracion {
+    background-color: blue;
+    grid-area: 1 / 1 / span 1 / span 2;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px black;
+    font-weight: bold;
+    max-width: 722.31px;
+    min-width: 722.31px;
+}
+
+.tituloPrevisualización {
+    background-color: blue;
+    grid-area: 1 / 3 / span 1 / span 2;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px black;
+    font-weight: bold;
+    max-width: 722.31px;
+    min-width: 722.31px;
+}
+
+.areaTrabajoConfiguracion {
+    border: solid 2px black;
+    grid-area: 2 / 1 / span 50 / span 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 722.31px;
+    min-width: 722.31px;
+}
+
+input[type="email"] {
+    width: 650px;
+    height: 30px;
+    padding-right: 70px;
+}
+
+input[type="tel"] {
+    width: 650px;
+    height: 30px;
+    padding-right: 70px;
+}
+
+input[type="text"] {
+    width: 650px;
+    height: 30px;
+    padding-right: 70px;
+}
+
+input[id="colorNombre"] {
+    margin-left: 650px;
+    height: 30px;
+    width: 50px;
+    margin-top: -30px;
+}
+
+input[id="colorCargo"] {
+    margin-left: 650px;
+    height: 30px;
+    width: 50px;
+    margin-top: -30px;
+}
+
+input[id="colorEmail"] {
+    margin-left: 650px;
+    height: 30px;
+    width: 50px;
+    margin-top: -30px;
+}
+
+input[id="colorTelefono"] {
+    margin-left: 650px;
+    height: 30px;
+    width: 50px;
+    margin-top: -30px;
+}
+
+#areaTrabajoPrevisualizacion {
+    border: solid 2px black;
+    position: relative;
+    max-width: 722.31px;
+    min-width: 722.31px;
+    margin-left: 753px;
+    margin-top: -540px;
+    height: 520px;
+}
+
+#posicionNombre {
+    border: solid 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 128px;
+    width: 502px;
+    font-size: 20px;
+    line-height: 126px;
+    text-align: center;
+}
+
+#posicionCargo {
+    border: solid 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 128px;
+    width: 502px;
+    font-size: 20px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#posicionEmail {
+    border: solid 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 128px;
+    width: 502px;
+    font-size: 20px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#posicionTelefono {
+    border: solid 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 127px;
+    width: 502px;
+    font-size: 20px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#posicionFoto {
+    border: solid 1px;
+    height: 255px;
+    width: 211px;
+    margin-left: 505px;
+    margin-top: -255px;
+}
+
+#posicionEmpresa {
+    border: solid 1px;
+    height: 257px;
+    width: 211px;
+    margin-left: 505px;
+    margin-top: -514px;
+}
+
+#botones {
+    margin-right: 265px;
+    text-align: center;
+    position: relative;
+}
